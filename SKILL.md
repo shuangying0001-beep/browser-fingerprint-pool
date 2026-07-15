@@ -1,6 +1,6 @@
 ---
-name: browser-fingerprint-pool
-description: 提供真实浏览器市场份额分布的 User-Agent 池（88+ 桌面端 UA，按 Chrome/Edge/Firefox/Safari/Opera/Linux 分类）与屏幕分辨率池（87 个按权重分布），支持随机获取与按类型获取。触发词：随机 UA、随机 user-agent、UA 池、分辨率池、指纹池、浏览器指纹、随机视口、随机浏览器配置。
+name: "爬虫/自动化 防封指纹伪装（UA+分辨率池）"
+description: "给爬虫和浏览器自动化随机真实指纹（88+ UA、87 分辨率），降低被风控识别概率。适合爬虫工程师、RPA 开发者、海外社媒多账号。"
 market_desc: 做网页自动化 / 爬虫 / 压测时，需要一个「像真用户」的随机浏览器身份。内置 88+ 真实 UA 与 87 个按市占权重分布的分辨率，一行调用随机取一个，避免所有请求都用同一个 UA 被一眼识破。
 version: 1.0.0
 ---
